@@ -1,0 +1,43 @@
+:root {
+    --col-bg: #fff;
+    --col-on-bg: #222;
+    --col-accent-a: #6ba8a9;
+    --col-on-accent-a: #e5dfdf;    
+    --col-accent-b:;
+    --col-on-accent-b:;
+    /* [...etc] */
+    --font-a: arial, helvetica, sans-serif;
+    /* [...etc] */
+    --spacing: 1em;
+ }
+
+ body{
+     background-color: var(--col-bg);
+     color: var(--col-on-bg);
+     box-sizing: border-box;
+     margin: auto;
+     width: auto;
+     height: auto;
+     padding: 1em;
+ }
+
+ div{
+     text-align: center;
+ }
+
+ img{
+    width: auto;
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    /*align-items: center;*/
+}
+
+.icon{
+    width: 50%;
+    height: 50%;
+}
