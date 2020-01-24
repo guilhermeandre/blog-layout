@@ -7,10 +7,13 @@
     --col-on-accent-b:;
     /* [...etc] */
     --font-a: arial, helvetica, sans-serif;
+    --font-b:'Courier New', Courier, monospace;
     /* [...etc] */
     --spacing: 1em;
+    --height:1.25em;
+    --max-width:60em;
+    --font-bigger:1.5em;
  }
-
  body{
      background-color: var(--col-bg);
      color: var(--col-on-bg);
@@ -19,25 +22,42 @@
      width: auto;
      height: auto;
      padding: 1em;
+     line-height: var(--height);
+     font-family: var(--font-a);
  }
-
  div{
-     text-align: left;
+     text-align: left
  }
-
+ .container{
+     max-width:var(--max-width);
+     border: solid rgb(231, 50, 50) 10px;
+     margin: auto;
+     margin: auto;
+ }
  img{
     width: auto;
     max-width: 100%;
+    object-fit: cover;
 }
-
 li{
     list-style: none;
     padding: 0;
     display: inline-block;
     /*align-items: center;*/
 }
-
 .icon{
     width: 50%;
     height: 50%;
+}
+.heading{
+    background-image: url(/img/canada-flag.jpeg);
+    border: solid black 10px;
+}
+.main-paragraph{
+    font-family: var(--font-b);
+    font-size: var(--font-bigger);
+}
+blockquote{
+    margin-left:5em;
+    border-left-style: solid;
 }
