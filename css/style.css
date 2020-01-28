@@ -16,11 +16,12 @@
  }
 
  .heading{
-    background-image: url(/img/canada-flag.jpeg);
+    background: black url(/img/canada-flag.jpeg) no-repeat; 
     border: solid black 10px;
-    background-size: 150px;
-    height: 100%;
-    width: 100%;
+    /* background-size: 150px; */
+    height: 20em;
+    width: auto;
+    background-position: center;
 } 
  body{
      background-color: var(--col-bg);
@@ -97,6 +98,7 @@ ul{
     display: flex;
     flex-direction: row;
     background-color: var(--col-accent-c);
+    border-style: solid;
 }
 
 .flex-item {
