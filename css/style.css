@@ -39,6 +39,10 @@
     max-width: 100%;
     object-fit: cover;
 }
+ul{
+      text-align: left;
+}
+
 li{
     list-style: none;
     padding: 0;
@@ -53,11 +57,16 @@ li{
     background-image: url(/img/canada-flag.jpeg);
     border: solid black 10px;
 }
+
+footer{
+    background-color: turquoise;
+}
 .main-paragraph{
     font-family: var(--font-b);
     font-size: var(--font-bigger);
 }
 blockquote{
     margin-left:5em;
-    border-left-style: solid;
+   /* border-left-style: solid;*/
+    font-style: italic;
 }
