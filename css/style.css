@@ -14,6 +14,14 @@
     --max-width:60em;
     --font-bigger:1.5em;
  }
+
+ .heading{
+    background-image: url(/img/canada-flag.jpeg);
+    border: solid black 10px;
+    background-size: 150px;
+    height: 100%;
+    width: 100%;
+} 
  body{
      background-color: var(--col-bg);
      color: var(--col-on-bg);
@@ -24,9 +32,6 @@
      padding: 1em;
      line-height: var(--height);
      font-family: var(--font-a);
- }
- div{
-     text-align: left
  }
  .container{
      max-width:var(--max-width);
@@ -41,41 +46,38 @@
     padding: 0;
     display: block;
 }
+
 ul{
       text-align: left;
       display: block;
       padding: 0;
 }
 
-li{
+.li-bottom{
     list-style: none;
-    /* padding: 0; */
-    display: inline-block;
-    /*align-items: center;*/
- 
+    display: inline-block; 
 }
+
+.li-general{
+    list-style: none;
+}
+
 .icon{
     width: 50%;
     height: 50%;
 }
-.heading{
-    background-image: url(/img/canada-flag.jpeg);
-    border: solid black 10px;
-}
 
-footer{
+
+.main-footer{
     background-color: var(--col-accent-c);
     color: var(--col-on-accent-c);
 }
+
 .main-paragraph{
     font-family: var(--font-b);
     font-size: var(--font-bigger);
 }
-blockquote{
-    margin-left:5em;
-   /* border-left-style: solid;*/
-    font-style: italic;
-}
+
 
 .external-links{
     border-top: solid rgb(231, 50, 50) 10px; 
@@ -89,4 +91,15 @@ blockquote{
     display: inline-block;
     padding: 1em;
     text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--col-accent-c);
+}
+
+.flex-item {
+    flex-grow: 1;
+    margin: 1em;
 }
